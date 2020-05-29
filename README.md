@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-created with pygame
+GUI created with pygame
