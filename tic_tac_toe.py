@@ -4,11 +4,10 @@ from pop_up_window import *
 import pygame
 pygame.init()
 
-							# when add drag + drop capabilities use (720, 700)
 win = pygame.display.set_mode((552,625))
 pygame.display.set_caption("Tic Tac Toe")
 
-font1 = pygame.font.SysFont('cambria', 16)	#comicsans, 23
+font1 = pygame.font.SysFont('cambria', 16)	
 font2 = pygame.font.SysFont('couriernew', 14)
 
 player1 = Player('X', 0, True)
